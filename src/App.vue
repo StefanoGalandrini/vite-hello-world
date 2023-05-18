@@ -1,6 +1,12 @@
-<script setup>
-import AppTitle from "./AppTitle.vue";
-import Jumbotron from "./Jumbotron.vue";
+<script>
+import AppTitle from "./components/AppTitle.vue";
+import Jumbotron from "./components/Jumbotron.vue";
+export default {
+	components: {
+		AppTitle,
+		Jumbotron,
+	},
+};
 </script>
 
 <template>
